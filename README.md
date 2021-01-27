@@ -33,3 +33,6 @@ loki -config.file=loki.yaml
 
 #build haproxy  
 buildah bud -f Dockerfile  -t haproxy:2.28
+
+try out letsencrypt   
+https://skarlso.github.io/2017/02/15/how-to-https-with-hugo-letsencrypt-haproxy/
