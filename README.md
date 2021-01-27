@@ -28,3 +28,8 @@ Correctly formatted python export.
 #  Usage
 export LOKI_ADDR=http://localhost:3100  
 loki -config.file=loki.yaml
+
+  
+
+#build haproxy  
+buildah bud -f Dockerfile  -t haproxy:2.28
